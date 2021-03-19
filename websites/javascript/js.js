@@ -10,7 +10,7 @@ function addElement()
     document.body.appendChild(title);
 }
 
-let button = document.getElementById("clickme");
+let button = document.getElementById("clickme");0
 button.addEventListener("click", addElement);
 
 document.addEventListener("scroll", addElement);
