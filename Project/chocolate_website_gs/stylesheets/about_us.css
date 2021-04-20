@@ -1,0 +1,210 @@
+
+
+/* Navigation Bar*/
+.navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	top: 0;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,.5);
+	box-shadow: 0px 0px 50px rgba(0,0,0,0.5);
+}
+
+.logo{
+	height: 55px;
+	width: 55px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	background-color: grey;
+	color: white!important;
+	border-radius: 5px;
+}
+
+.nav-item{
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+}
+
+.navbar-nav .nav-link { 
+	padding-left: 16px;
+}
+
+.nav-link{
+	
+}
+
+.nav-link:hover{
+	background: rgba(77, 38, 0, 0.95);
+	border-radius: 7px;
+	color: white!important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover{
+	background: rgba(77, 38, 0, 0.95);
+	border-radius: 7px;
+	color: white;
+}
+
+/*Search Button*/
+.btn-outline-success{
+	color: rgba(77, 38, 0, 0.95)!important;
+	background-color: transparent;
+	background-image: none;
+	border-color: rgba(77, 38, 0, 0.95)!important; 
+}
+
+.btn-outline-success:hover{
+	color: white!important;
+	background-color: rgba(77, 38, 0, 0.95);
+	background-image: none;
+	border-color: rgba(77, 38, 0, 0.95)!important; 
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+	box-shadow: 0 0 0 0.2rem rgba(77, 38, 0, 0.5);
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: rgba(77, 38, 0, 0.95)!important;
+    background-color: white;
+    border-color: rgb(77, 38, 0)!important;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(77, 38, 0, 0.5);
+}	
+
+/*Search Box*/
+.form-control:focus {
+    color: rgb(77, 38, 0);
+    background-color: #fff;
+    border-color: rgb(77, 38, 0);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(77, 38, 0, 0.5);
+}
+
+
+/*Body*/
+body{
+	margin: 0;
+}
+h1{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	color: rgb(109, 16, 16);
+	margin: 0;
+    background: #ffffff8a;
+	font-size: 3.8em;
+	text-decoration: underline;
+	text-decoration-color: white;
+	padding: 5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+h2{
+	font-family: Goudy Old Style, serif, cursive;
+	color: rgb(255, 255, 255);
+	margin: 0;
+    background: #8a1f1f8a;
+	border-radius: 5px;
+	font-size: 2.5em;
+	padding: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+} 
+.fixed-bg{
+	position: relative;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 99;
+	background-attachment: fixed;
+	
+}
+
+.fixed-bg1{
+	background-image: url("../images/chocolate1.jpg");
+	width: 100%;
+	max-width: 100%;
+	max-height: 200vw;
+	margin-top: 0;
+	top: 50px;
+}
+.fixed-bg2{
+	background-image: url("../images/cacaoplant.jpg");
+	width: 100%;
+	max-width: 100%;
+}
+
+.scroll-bg .scroll-bg2{
+	min-height: 100%;
+}
+
+.scroll-bg.scroll-bg1.scroll-bg2{
+	background-color: white;
+	color: rgb(77, 38, 0);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+*,*::after, *::before{
+	box-sizing: border-box;
+}
+.scroll-bg-content p{
+	font-family: Goudy Old Style, serif;
+	font-weight: 400;
+	font-size: 2.1vw;
+	text-align: center;
+	padding: 13vw;
+	margin: 0;
+	margin-top: 50px;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,.5);
+	box-shadow: 0px 0px 50px rgba(0,0,0,0.5);
+}
+.scroll-bg-content2 p{
+	font-family: Goudy Old Style, serif;
+	font-weight: 400;
+	font-size: 2.1vw;
+	text-align: center;
+	padding: 13vw;
+	margin: 0;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,.5);
+	box-shadow: 0px 0px 50px rgba(0,0,0,0.5);
+}
+
+
+/*Footer*/
+
+.card .card-header{
+	background-color: rgb(77, 38, 0)!important;
+	color: white;
+	font-size: 2vw;
+}
+
+.card-body{
+	background-color: rgba(77, 38, 0, 0.97);
+	color: grey;
+	font-size: 1.5vw;
+}
+
+h5{
+	font-size: 1.7vw;
+}
+
+.card-footer{
+	font-size: 1.15vw;
+	background-color: rgba(77, 38, 0, 0.97);
+}
+
+

@@ -1,0 +1,199 @@
+
+
+/* Navigation Bar*/
+.navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	top: 0;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,.5);
+	box-shadow: 0px 0px 50px rgba(0,0,0,0.5);
+}
+
+.logo{
+	height: 55px;
+	width: 55px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	background-color: grey;
+	color: white!important;
+	border-radius: 5px;
+}
+
+.nav-item{
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+}
+
+.navbar-nav .nav-link { 
+	padding-left: 16px;
+}
+
+.nav-link{
+	
+}
+
+.nav-link:hover{
+	background: rgba(77, 38, 0, 0.95);
+	border-radius: 7px;
+	color: white!important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover{
+	background: rgba(77, 38, 0, 0.95);
+	border-radius: 7px;
+	color: white;
+}
+
+
+/*Burger*/
+
+.navbar-light .navbar-toggler{
+	color: transparent;
+	border-color: transparent;
+}
+
+button:focus{
+	outline: transparent;
+}
+
+
+/*Search Button*/
+.btn-outline-success{
+	color: rgba(77, 38, 0, 0.95)!important;
+	background-color: transparent;
+	background-image: none;
+	border-color: rgba(77, 38, 0, 0.95)!important; 
+}
+
+.btn-outline-success:hover{
+	color: white!important;
+	background-color: rgba(77, 38, 0, 0.95)!important;
+	background-image: none;
+	border-color: rgba(77, 38, 0, 0.95)!important; 
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+	box-shadow: 0 0 0 0.2rem rgba(77, 38, 0, 0.5);
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: rgba(77, 38, 0, 0.95)!important;
+    background-color: white;
+    border-color: rgb(77, 38, 0)!important;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(77, 38, 0, 0.5);
+}	
+
+/*Search Box*/
+.form-control:focus {
+    color: rgb(77, 38, 0);
+    background-color: #fff;
+    border-color: rgb(77, 38, 0);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(77, 38, 0, 0.5);
+}
+
+
+/*Body*/
+body{
+	margin: 0;
+	height: 1500px;
+	background-color: rgb(77, 38, 0);
+}
+h1{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	color: white;
+	margin-top: 150px;
+	margin-right: 50%;
+	margin-left: 50%;
+}
+
+h2{
+	font-family: Goudy Old Style, serif, cursive;
+	color: rgb(255, 255, 255);
+	margin: 0;
+    background: #8a1f1f8a;
+	border-radius: 5px;
+	font-size: 2.5em;
+	padding: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+} 
+
+
+.card:hover{
+	box-shadow: 0 3px 0 5px rgb(61, 2, 2);
+	width: 300px !important;
+	height: 470px;
+	cursor: pointer;
+}
+
+/*Footer*/
+/*
+
+.card .card-header{
+	background-color: rgb(77, 38, 0)!important;
+	color: white;
+	font-size: 2.15vw;
+	border-radius: 0;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}	
+
+.card-body{
+	background-color: rgba(77, 38, 0, 0.97);
+	color: grey;
+	
+}
+
+.card-title{
+	color: #d3d3d3;
+	font-size: 1.65vw;
+}
+
+.card-text{
+	color: grey;
+	font-size: 1.45vw;
+}
+
+.card-footer{
+	font-size: 1.1vw;
+	background-color: rgba(77, 38, 0, 0.97);
+	color: black!important;
+}
+
+
+/*"To Top"-button
+.btn{
+	background-color: white!important;
+	color: rgb(77, 38, 0)!important;
+	padding-left: 4vw;
+	padding-right: 4vw;
+}
+
+.btn-primary{
+	border-color: white;
+	font-family: sans-serif bold;
+	font-size: 2vw;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5)!important;
+}
+
+.btn:hover{
+	color: white!important;
+	background-color: rgba(77, 38, 0, 0.95)!important;
+	background-image: none;
+	border-color: rgba(77, 38, 0, 0.95)!important; 
+}
+
